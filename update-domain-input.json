@@ -1,0 +1,13 @@
+{
+    "DomainId": "d-1wlhbekoothi",
+    "DefaultUserSettings": {
+        "KernelGatewayAppSettings": {
+            "CustomImages": [
+                {
+                    "ImageName": "dask-geopandas",
+                    "AppImageConfigName": "dask-geopandas-kernel-config"
+                }
+            ]
+        }
+    }
+}

@@ -1,10 +1,10 @@
 {
-    "AppImageConfigName": "conda-env-kernel-config",
+    "AppImageConfigName": "dask-geopandas-kernel-config",
     "KernelGatewayImageConfig": {
         "KernelSpecs": [
             {
-                "Name": "conda-env-myenv-py",
-                "DisplayName": "Python [conda env: myenv]"
+                "Name": "dask-geopandas",
+                "DisplayName": "Python [conda env: dask-geopandas]"
             }
         ],
         "FileSystemConfig": {
