@@ -9,9 +9,10 @@ This requires an account on Coiled (and setting AWS as the backend)
 i.e set software environments to be hosted on AWS ECR
 
 1. Use coiled to create an ECR repository with environment file
-```import coiled
-coiled.create_software_environment("
-	name = <env_name>,
+```
+import coiled
+coiled.create_software_environment(
+	name = "<ENV_NAME>",
 	conda = "environment.yml"
 	)
 ```
