@@ -22,13 +22,13 @@ Include awscli, boto3, ipykernel in env build to for Sagemaker
 		
 2. Using aws cli, use the docker image in EC3 to create a sagemaker image
 `aws --region ${REGION} sagemaker create-image`
-    1. get sagemaker executioner role i.e. ROLE ARN and set to env var
-    2. provide the docker image in ECR as the sagemaker base image
+    1. get sagemaker executioner role i.e. ROLE ARN from AWS console (in Sagemaker)
+    2. provide the docker image in ECR as the base image
     
 Sagemaker domains are defined per region (/per user) hence we need to specify region above
 
 3. Create AppImageConfig
-4. Update domain (add to image to json file)
+4. Update domain (add to image dictionary to json file)
 
 
 ## Notes
