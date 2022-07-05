@@ -8,9 +8,11 @@ Below is the skeleton
 
 Coiled is used to create the conda-docker image hosted on ECR.
 This requires an account on Coiled (and setting AWS as the backend)
-i.e set software environments to be hosted on AWS ECR
+i.e set software environments to be hosted on AWS ECR.
 
-1. Use coiled to create an ECR repository with environment file
+Coiled creates the ECR repository and the docker image for you.
+
+1. Use coiled to create an docker image with environment file
 ```
 import coiled
 coiled.create_software_environment(
