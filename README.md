@@ -18,11 +18,15 @@ coiled.create_software_environment(
 ```
 Include awscli, boto3, ipykernel in env build to for Sagemaker
 		
-2. Use docker image in EC3 to create a sagemaker image in Cloud9
+2. Using aws cli, use the docker image in EC3 to create a sagemaker image
+`aws --region ${REGION} sagemaker create-image`
     1. get sagemaker executioner role i.e. ROLE ARN and set to env var
     2. provide the docker image in ECR as the sagemaker base image
-3. Create AppImageConfig
-4. Update domain (add to image to json file)
+    
+Sagemaker domains are defined per region (/per user) hence we need to specify region above
+
+4. Create AppImageConfig
+5. Update domain (add to image to json file)
 
 
 ## Notes
