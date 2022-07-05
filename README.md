@@ -2,7 +2,9 @@
 
 This repo creates an docker image on AWS ECR then creates a sagemaker image
 
-See [AWS repo](https://github.com/aws-samples/sagemaker-studio-custom-image-samples) for more examples
+See [AWS repo](https://github.com/aws-samples/sagemaker-studio-custom-image-samples) for more examples.
+
+Below is the skeleton
 
 Coiled is used to create the conda-docker image hosted on ECR.
 This requires an account on Coiled (and setting AWS as the backend)
@@ -25,8 +27,8 @@ Include awscli, boto3, ipykernel in env build to for Sagemaker
     
 Sagemaker domains are defined per region (/per user) hence we need to specify region above
 
-4. Create AppImageConfig
-5. Update domain (add to image to json file)
+3. Create AppImageConfig
+4. Update domain (add to image to json file)
 
 
 ## Notes
