@@ -36,6 +36,7 @@ Sagemaker domains are defined per region (/per user) hence we need to specify re
 ## Notes
 
 Coiled’s Docker file command
- RUN conda env update -n coiled -f environment.yml     && rm environment.yml     && conda clean --all -y     && echo "conda activate coiled" >> ~/.bashrc
+
+RUN conda env update -n coiled -f environment.yml     && rm environment.yml     && conda clean --all -y     && echo "conda activate coiled" >> ~/.bashrc
 
 
