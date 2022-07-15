@@ -4,6 +4,8 @@ This repo creates an docker image on AWS ECR then creates a sagemaker image
 
 See [AWS repo](https://github.com/aws-samples/sagemaker-studio-custom-image-samples) for more examples.
 
+Examples were run in Cloud9 for easy AWS authentication, though not necessary
+
 Below is the skeleton
 
 Coiled is used to create the conda-docker image hosted on ECR.
